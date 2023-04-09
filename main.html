@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+    <title>Title</title>
+  </head>
+
+  <body class="container">
+    <h1 class="text-center">CHUYỂN ĐỔI HỆ A - B</h1>
+    <form>
+      <div class=" ">
+        <label for="heSoA" class="form-label form-text">Nhập hệ số A</label>
+        <input
+          type="text"
+          class="form-control"
+          id="heSoA"
+          placeholder="Vd: 2..."
+        />
+      </div>
+      <div class=" ">
+        <label for="giaTriA" class="form-label form-text">Nhập giá trị A</label>
+        <input
+          type="text"
+          class="form-control"
+          id="giaTriA"
+          placeholder="Vd: 10101"
+        />
+      </div>
+      <div class=" ">
+        <label for="giaTriB" class="form-label form-text">Nhập giá trị B</label>
+        <input
+          type="text"
+          class="form-control"
+          id="heSoB"
+          placeholder="Vd: 10..."
+        />
+      </div>
+      <button type="button" class="btn btn-primary" id="btn1">
+        Chuyển đổi
+      </button>
+      <button id="btn2" type="button" class="btn btn-danger" id="btn1">
+        Xoá nội dung trong bảng
+      </button>
+      <div class=" ">
+        <label for="ketQua" class="form-label form-text">Kết quả</label>
+        <input type="text" class="form-control" id="ketQua" readonly />
+      </div>
+    </form>
+  </body>
+  <h1 class="text-center">Đổi hệ A - 10</h1>
+
+  <table id="table2" class="table table-primary">
+    <thead>
+      <tr class="">
+        <th>Dòng</th>
+        <th>Phép tính</th>
+        <th>Kết quá</th>
+      </tr>
+    </thead>
+    <tr></tr>
+  </table>
+  <h1 class="text-center">Đổi hệ 10 - B</h1>
+  <table id="table1" class="table table-primary">
+    <thead>
+      <tr class="">
+        <th>Dòng</th>
+        <th>Phép chia lấy phần nguyên</th>
+        <th>Số dư</th>
+      </tr>
+    </thead>
+    <tr></tr>
+  </table>
+
+  <script src="main.js"></script>
+</html>
